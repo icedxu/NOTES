@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Debug|Win32|F:\Learn\snort-2.9.11.1-2\snort-2.9.11.1\src\win32\WIN32-Prj\|

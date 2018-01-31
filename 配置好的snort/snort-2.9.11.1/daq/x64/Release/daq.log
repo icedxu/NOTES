@@ -1,0 +1,89 @@
+﻿生成启动时间为 2018/1/23 星期二 11:06:29。
+     1>项目“F:\Learn\snort-2.9.11.1\daq\daq.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iapi /Isfbpf /I"../src/win32/WIN32-Includes" /Zi /nologo /W3 /WX- /O2 /D NDEBUG /D WIN32 /D _LIB /D DAQ_DLL /D HAVE_CONFIG_H /D BUILD_PCAP_MODULE /D STATIC_MODULE_LIST /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TC /errorReport:prompt api\daq_base.c api\daq_mod_ops.c "os-daq-modules\daq_static_modules.c"
+         daq_base.c
+     1>F:\Learn\snort-2.9.11.1\daq\api\daq_common.h(244): error C2079: “src_ip4”使用未定义的 struct“sf_in_addr”
+     1>F:\Learn\snort-2.9.11.1\daq\api\daq_common.h(248): error C2079: “dst_ip4”使用未定义的 struct“sf_in_addr”
+     1>api\daq_base.c(363): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         daq_mod_ops.c
+     1>F:\Learn\snort-2.9.11.1\daq\api\daq_common.h(244): error C2079: “src_ip4”使用未定义的 struct“sf_in_addr”
+     1>F:\Learn\snort-2.9.11.1\daq\api\daq_common.h(248): error C2079: “dst_ip4”使用未定义的 struct“sf_in_addr”
+         daq_static_modules.c
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(254): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(254): error C2085: “sfip_bits”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(254): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(259): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(259): error C2085: “sfip_set_bits”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(259): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(283): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(283): error C2085: “sfraw_is_set”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(283): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(289): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(289): error C2085: “sfaddr_is_set”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(289): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(297): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(297): error C2085: “sfip_is_set”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(297): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(308): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(308): error C2085: “sfip_ismapped”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(308): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(315): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(315): error C2085: “_ip4_cmp”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(315): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(324): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(324): error C2085: “_ip6_cmp”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(324): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(350): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(350): error C2085: “sfip_compare”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(350): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(373): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(373): error C2085: “sfip_cidr_compare”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(373): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(388): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(388): error C2085: “sfip_compare_unset”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(388): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(408): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(408): error C2085: “sfip_fast_lt4”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(408): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(411): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(411): error C2085: “sfip_fast_gt4”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(411): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(414): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(414): error C2085: “sfip_fast_eq4”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(414): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(418): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(418): error C2085: “sfip_fast_lt6”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(418): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(439): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(439): error C2085: “sfip_fast_gt6”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(439): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(460): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(460): error C2085: “sfip_fast_eq6”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(460): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(475): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(475): error C2085: “sfip_fast_cont4”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(475): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(490): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(490): error C2085: “sfip_fast_cont6”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(490): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(514): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(515): error C2085: “sfip_fast_equals_raw”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(515): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(553): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(554): error C2085: “sfip_is_private”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(554): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(586): error C2054: 在“inline”之后应输入“(”
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(587): error C2085: “sfaddr_copy_to_raw”: 不在形参表中
+     1>F:\Learn\snort-2.9.11.1\src\sfutil\sf_ip.h(587): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>F:\Learn\snort-2.9.11.1\daq\api\daq_common.h(244): error C2079: “src_ip4”使用未定义的 struct“sf_in_addr”
+     1>F:\Learn\snort-2.9.11.1\daq\api\daq_common.h(248): error C2079: “dst_ip4”使用未定义的 struct“sf_in_addr”
+         正在生成代码...
+     1>已完成生成项目“F:\Learn\snort-2.9.11.1\daq\daq.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.84

@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/1/23 星期二 18:23:13。
+     1>项目“F:\Learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\src\win32\WIN32-Includes" /I..\..\src\sfutil /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _CONSOLE /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt u2spewfoo.c
+         u2spewfoo.c
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.c(80): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.c(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.c(135): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.c(140): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.c(153): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.c(698): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\u2spewfoo.exe" /INCREMENTAL /NOLOGO wsock32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\u2spewfoo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\u2spewfoo.lib" /MACHINE:X86 /SAFESEH .\Debug\u2spewfoo.obj
+     1>u2spewfoo.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         u2spewfoo.vcxproj -> F:\Learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\.\Debug\u2spewfoo.exe
+     1>已完成生成项目“F:\Learn\snort-2.9.11.1-2\snort-2.9.11.1\tools\u2spewfoo\u2spewfoo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.33

@@ -1,0 +1,8 @@
+﻿生成启动时间为 2018/1/30 11:19:56。
+     1>项目“C:\Users\first\Desktop\snort-2.9.11.1\src\win32\WIN32-Prj\build_all.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project '..\..\dynamic-preprocessors\dynamic_preprocessors.vcxproj' does not exist.
+     1>已完成生成项目“C:\Users\first\Desktop\snort-2.9.11.1\src\win32\WIN32-Prj\build_all.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.10

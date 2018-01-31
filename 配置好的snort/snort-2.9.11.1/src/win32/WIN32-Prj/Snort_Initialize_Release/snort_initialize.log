@@ -1,0 +1,13 @@
+﻿生成启动时间为 2018/1/30 15:47:32。
+     1>项目“C:\Users\first\Desktop\new\snort-2.9.11.1\src\win32\WIN32-Prj\snort_initialize.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Converting files by cygwin..FullPath:C:\Users\first\Desktop\new\snort-2.9.11.1\src\dynamic-plugins\sf_engine\sf_snort_packet.h Filename:sf_snort_packet 
+         已复制         1 个文件。
+         Converting files by cygwin..FullPath:C:\Users\first\Desktop\new\snort-2.9.11.1\src\dynamic-plugins\sf_engine\sf_snort_plugin_api.h Filename:sf_snort_plugin_api 
+         已复制         1 个文件。
+         Converting files by cygwin( Release or Win32)..FullPath:C:\Users\first\Desktop\new\snort-2.9.11.1\src\dynamic-plugins\sf_engine\sf_snort_plugin_hdropts.c Filename:sf_snort_plugin_hdropts InputName: 
+     1>已完成生成项目“C:\Users\first\Desktop\new\snort-2.9.11.1\src\win32\WIN32-Prj\snort_initialize.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.23

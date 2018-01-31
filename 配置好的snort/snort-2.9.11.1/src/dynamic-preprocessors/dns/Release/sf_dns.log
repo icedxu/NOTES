@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/1/30 15:43:48。
+     1>项目“C:\Users\first\Desktop\new\snort-2.9.11.1\src\dynamic-preprocessors\dns\sf_dns.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\libs /I..\include /I"..\..\win32\Win32-Includes" /I.\ /I"..\..\win32\Win32-Includes\WinPCAP" /I..\..\..\daq\api /I..\..\..\daq\sfbpf /Zi /nologo /W3 /WX- /O2 /Oy- /D NDEBUG /D ENABLE_PAF /D SF_SNORT_PREPROC_DLL /D _WINDOWS /D _USRDLL /D ACTIVE_RESPONSE /D GRE /D MPLS /D TARGET_BASED /D PERF_PROFILING /D ENABLE_RESPOND /D ENABLE_REACT /D WIN32 /D HAVE_CONFIG_H /D SIGNAL_SNORT_READ_ATTR_TBL=30 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\include\sfPolicyUserData.c ..\include\sf_dynamic_preproc_lib.c spp_dns.c
+         sfPolicyUserData.c
+         sf_dynamic_preproc_lib.c
+     1>..\include\sf_dynamic_preproc_lib.c(49): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>..\include\sf_dynamic_preproc_lib.c(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+         spp_dns.c
+     1>C:\Users\first\Desktop\new\snort-2.9.11.1\src\dynamic-preprocessors\include\snort_bounds.h(241): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>spp_dns.c(267): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 参见“strdup”的声明
+     1>spp_dns.c(275): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : 参见“strtok”的声明
+     1>spp_dns.c(286): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : 参见“strtok”的声明
+     1>spp_dns.c(297): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : 参见“strtok”的声明
+     1>spp_dns.c(322): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : 参见“strtok”的声明
+     1>spp_dns.c(349): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : 参见“strtok”的声明
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\sf_dns.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /PDB:".\Release\sf_dns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\sf_dns.lib" /MACHINE:X86 /SAFESEH /DLL .\Release\sfPolicyUserData.obj
+         .\Release\sf_dynamic_preproc_lib.obj
+         .\Release\spp_dns.obj
+            正在创建库 .\Release\sf_dns.lib 和对象 .\Release\sf_dns.exp
+         sf_dns.vcxproj -> C:\Users\first\Desktop\new\snort-2.9.11.1\src\dynamic-preprocessors\dns\.\Release\sf_dns.dll
+     1>已完成生成项目“C:\Users\first\Desktop\new\snort-2.9.11.1\src\dynamic-preprocessors\dns\sf_dns.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.32

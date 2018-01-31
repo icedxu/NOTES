@@ -1,0 +1,92 @@
+﻿生成启动时间为 2018/1/24 星期三 10:00:37。
+     1>项目“F:\Learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\daq.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iapi /Isfbpf /I"../src/win32/WIN32-Includes" /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D DAQ_DLL /D HAVE_CONFIG_H /D BUILD_PCAP_MODULE /D STATIC_MODULE_LIST /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt api\daq_base.c api\daq_mod_ops.c "os-daq-modules\daq_static_modules.c"
+         daq_static_modules.c
+         daq_mod_ops.c
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_api.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_mod_ops.c(44): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_mod_ops.c(50): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_mod_ops.c(58): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+         daq_base.c
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_api.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(357): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(368): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(854) : 参见“_splitpath”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(369): warning C4996: '_makepath': This function or variable may be unsafe. Consider using _makepath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(799) : 参见“_makepath”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(375): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(854) : 参见“_splitpath”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(382): warning C4996: '_makepath': This function or variable may be unsafe. Consider using _makepath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(799) : 参见“_makepath”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(390): warning C4996: '_makepath': This function or variable may be unsafe. Consider using _makepath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(799) : 参见“_makepath”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(392): warning C4996: '_makepath': This function or variable may be unsafe. Consider using _makepath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(799) : 参见“_makepath”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(462): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(538): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_base.c(551): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"../src/win32/WIN32-Includes/WinPCAP" /Iapi /Isfbpf /I"../src/win32/WIN32-Includes" /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D DAQ_DLL /D HAVE_CONFIG_H /D BUILD_PCAP_MODULE /D STATIC_MODULE_LIST /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "os-daq-modules\daq_pcap.c" sfbpf\sf_nametoaddr.c
+         sf_nametoaddr.c
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\sfbpf\sf_nametoaddr.c(105): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : 参见“gethostbyname”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\sfbpf\sf_nametoaddr.c(229): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\sfbpf\sf_nametoaddr.c(231): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\sfbpf\sf_nametoaddr.c(393): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\sfbpf\sf_nametoaddr.c(450): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         daq_pcap.c
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\api\daq_api.h(113): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\os-daq-modules\daq_pcap.c(207): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\os-daq-modules\daq_pcap.c(229): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\os-daq-modules\daq_pcap.c(232): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\os-daq-modules\daq_pcap.c(240): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\os-daq-modules\daq_pcap.c(243): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\os-daq-modules\daq_pcap.c(254): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : 参见“_snprintf”的声明
+     1>f:\learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\os-daq-modules\daq_pcap.c(309): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 参见“strdup”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\daq.res" daq.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\Debug\daq.lib" /NOLOGO .\Debug\daq.res
+         .\Debug\daq_base.obj
+         .\Debug\daq_mod_ops.obj
+         .\Debug\daq_pcap.obj
+         .\Debug\daq_static_modules.obj
+         ".\Debug\sfbpf-int.obj"
+         .\Debug\sf_bpf_filter.obj
+         .\Debug\sf_bpf_printer.obj
+         .\Debug\sf_gencode.obj
+         .\Debug\sf_nametoaddr.obj
+         .\Debug\sf_optimize.obj
+     1>LINK : warning LNK4068: 未指定 /MACHINE；默认设置为 X86
+         daq.vcxproj -> F:\Learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\.\Debug\daq.lib
+     1>已完成生成项目“F:\Learn\snort-2.9.11.1-2\snort-2.9.11.1\daq\daq.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.29

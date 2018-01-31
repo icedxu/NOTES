@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F2DCF2DF-7C06-48F4-8368-83A7FDB4FAE1}</ProjectGuid>
+    <RootNamespace>sfutil</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)..\..\..\daq\api\;$(SolutionDir)..\..\..\;$(SolutionDir)..\..\..\src\;$(SolutionDir)..\..\..\src\sfutil $(extra_incl)\;$(SolutionDir)..\..\..\src\output-plugins\;$(SolutionDir)..\..\..\src\detection-plugins\;$(SolutionDir)..\..\..\src\dynamic-plugins\;$(SolutionDir)..\..\..\src\preprocessors\;$(SolutionDir)..\..\..\src\preprocessors\portscan\;$(SolutionDir)..\..\..\src\preprocessors\HttpInspect\include\;$(SolutionDir)..\..\..\src\preprocessors\Session\;$(SolutionDir)..\..\..\src\preprocessors\Stream6\;$(SolutionDir)..\..\..\src\target-based\;$(SolutionDir)..\..\..\src\control\;$(SolutionDir)..\..\..\src\file-process\;$(SolutionDir)..\..\..\src\file-process\libs\;$(SolutionDir)..\..\..\src\side-channel\;$(SolutionDir)..\..\..\src\side-channel\plugins\;$(SolutionDir)..\..\..\src\reload-adjust;</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D WIN32 /D _WIN32 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="acsmx.c" />
+    <ClCompile Include="acsmx2.c" />
+    <ClCompile Include="asn1.c" />
+    <ClCompile Include="bnfa_search.c" />
+    <ClCompile Include="getopt_long.c" />
+    <ClCompile Include="intel-soft-cpm.c" />
+    <ClCompile Include="ipobj.c" />
+    <ClCompile Include="md5.c" />
+    <ClCompile Include="mpse.c" />
+    <ClCompile Include="segment_mem.c" />
+    <ClCompile Include="sfActionQueue.c" />
+    <ClCompile Include="sfeventq.c" />
+    <ClCompile Include="sfghash.c" />
+    <ClCompile Include="sfhashfcn.c" />
+    <ClCompile Include="sfksearch.c" />
+    <ClCompile Include="sflsq.c" />
+    <ClCompile Include="sfmemcap.c" />
+    <ClCompile Include="sfPolicy.c" />
+    <ClCompile Include="sfPolicyUserData.c" />
+    <ClCompile Include="sfportobject.c" />
+    <ClCompile Include="sfprimetable.c" />
+    <ClCompile Include="sfrf.c" />
+    <ClCompile Include="sfrim.c" />
+    <ClCompile Include="sfrt.c" />
+    <ClCompile Include="sfrt_dir.c" />
+    <ClCompile Include="sfrt_flat.c" />
+    <ClCompile Include="sfrt_flat_dir.c" />
+    <ClCompile Include="sfsnprintfappend.c" />
+    <ClCompile Include="sfthd.c" />
+    <ClCompile Include="sfxhash.c" />
+    <ClCompile Include="sf_base64decode.c" />
+    <ClCompile Include="sf_email_attach_decode.c" />
+    <ClCompile Include="sf_ip.c" />
+    <ClCompile Include="sf_iph.c" />
+    <ClCompile Include="sf_ipvar.c" />
+    <ClCompile Include="sf_sechash.c" />
+    <ClCompile Include="sf_textlog.c" />
+    <ClCompile Include="sf_vartable.c" />
+    <ClCompile Include="sha2.c" />
+    <ClCompile Include="strvec.c" />
+    <ClCompile Include="util_jsnorm.c" />
+    <ClCompile Include="util_math.c" />
+    <ClCompile Include="util_net.c" />
+    <ClCompile Include="util_str.c" />
+    <ClCompile Include="util_unfold.c" />
+    <ClCompile Include="util_utf.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="acsmx.h" />
+    <ClInclude Include="acsmx2.h" />
+    <ClInclude Include="asn1.h" />
+    <ClInclude Include="bitop.h" />
+    <ClInclude Include="bitop_funcs.h" />
+    <ClInclude Include="bnfa_search.h" />
+    <ClInclude Include="getopt.h" />
+    <ClInclude Include="getopt1.h" />
+    <ClInclude Include="intel-soft-cpm.h" />
+    <ClInclude Include="ipobj.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="mpse.h" />
+    <ClInclude Include="mpse_methods.h" />
+    <ClInclude Include="segment_mem.h" />
+    <ClInclude Include="sfActionQueue.h" />
+    <ClInclude Include="sfdebug.h" />
+    <ClInclude Include="sfeventq.h" />
+    <ClInclude Include="sfghash.h" />
+    <ClInclude Include="sfhashfcn.h" />
+    <ClInclude Include="sfksearch.h" />
+    <ClInclude Include="sflsq.h" />
+    <ClInclude Include="sfmemcap.h" />
+    <ClInclude Include="sfPolicy.h" />
+    <ClInclude Include="sfPolicyData.h" />
+    <ClInclude Include="sfPolicyUserData.h" />
+    <ClInclude Include="sfportobject.h" />
+    <ClInclude Include="sfprimetable.h" />
+    <ClInclude Include="sfrf.h" />
+    <ClInclude Include="sfrim.h" />
+    <ClInclude Include="sfrt.h" />
+    <ClInclude Include="sfrt_dir.h" />
+    <ClInclude Include="sfrt_flat.h" />
+    <ClInclude Include="sfrt_flat_dir.h" />
+    <ClInclude Include="sfrt_trie.h" />
+    <ClInclude Include="sfsnprintfappend.h" />
+    <ClInclude Include="sfthd.h" />
+    <ClInclude Include="sfxhash.h" />
+    <ClInclude Include="sf_base64decode.h" />
+    <ClInclude Include="sf_email_attach_decode.h" />
+    <ClInclude Include="sf_ip.h" />
+    <ClInclude Include="sf_iph.h" />
+    <ClInclude Include="sf_ipvar.h" />
+    <ClInclude Include="sf_sechash.h" />
+    <ClInclude Include="sf_seqnums.h" />
+    <ClInclude Include="sf_textlog.h" />
+    <ClInclude Include="sf_vartable.h" />
+    <ClInclude Include="sha2.h" />
+    <ClInclude Include="strvec.h" />
+    <ClInclude Include="Unified2_common.h" />
+    <ClInclude Include="util_jsnorm.h" />
+    <ClInclude Include="util_math.h" />
+    <ClInclude Include="util_net.h" />
+    <ClInclude Include="util_str.h" />
+    <ClInclude Include="util_unfold.h" />
+    <ClInclude Include="util_utf.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

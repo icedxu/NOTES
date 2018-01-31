@@ -1,0 +1,12 @@
+﻿生成启动时间为 2018/1/30 15:43:03。
+     1>项目“C:\Users\first\Desktop\new\snort-2.9.11.1\daq\daq.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Performing Custom Build Tools
+         Performing Custom Build Tools
+       Lib:
+         daq.vcxproj -> C:\Users\first\Desktop\new\snort-2.9.11.1\daq\.\Release\daq.lib
+     1>已完成生成项目“C:\Users\first\Desktop\new\snort-2.9.11.1\daq\daq.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.12

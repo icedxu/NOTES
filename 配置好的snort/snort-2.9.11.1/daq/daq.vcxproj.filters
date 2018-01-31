@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{b6f5e0eb-61e0-4ffe-a66f-322be8d02d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sfbpf">
+      <UniqueIdentifier>{1c83bc01-9f4e-41cf-b12d-7e22eaef055e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="os-daq-modules">
+      <UniqueIdentifier>{9292bec5-09d1-4ca4-96cd-d4746cb0736f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\daq.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\daq_api.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\daq_common.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\arcnet.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\atmuni31.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\bittypes.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\ethertype.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\gencode.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\ieee80211.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\IP6_misc.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\ipnet.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\llc.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\namedb.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\nlpid.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\ppp.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\sf-redefines.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\sfbpf-int.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\sfbpf.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\sfbpf_dlt.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\sll.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\sunatmpos.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="sfbpf\win32-stdinc.h">
+      <Filter>sfbpf</Filter>
+    </ClInclude>
+    <ClInclude Include="os-daq-modules\daq_static_modules.h">
+      <Filter>os-daq-modules</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="api\daq_base.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\daq_mod_ops.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="sfbpf\sf_bpf_filter.c">
+      <Filter>sfbpf</Filter>
+    </ClCompile>
+    <ClCompile Include="sfbpf\sf_bpf_printer.c">
+      <Filter>sfbpf</Filter>
+    </ClCompile>
+    <ClCompile Include="sfbpf\sf_gencode.c">
+      <Filter>sfbpf</Filter>
+    </ClCompile>
+    <ClCompile Include="sfbpf\sf_nametoaddr.c">
+      <Filter>sfbpf</Filter>
+    </ClCompile>
+    <ClCompile Include="sfbpf\sf_optimize.c">
+      <Filter>sfbpf</Filter>
+    </ClCompile>
+    <ClCompile Include="sfbpf\sfbpf-int.c">
+      <Filter>sfbpf</Filter>
+    </ClCompile>
+    <ClCompile Include="os-daq-modules\daq_pcap.c">
+      <Filter>os-daq-modules</Filter>
+    </ClCompile>
+    <ClCompile Include="os-daq-modules\daq_static_modules.c">
+      <Filter>os-daq-modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="sfbpf\grammar.y">
+      <Filter>sfbpf</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sfbpf\scanner.l">
+      <Filter>sfbpf</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="daq.rc" />
+  </ItemGroup>
+</Project>

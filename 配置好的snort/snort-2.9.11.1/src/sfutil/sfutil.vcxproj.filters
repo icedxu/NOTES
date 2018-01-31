@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acsmx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="acsmx2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="asn1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bnfa_search.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt_long.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="intel-soft-cpm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ipobj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mpse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_base64decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_email_attach_decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_ip.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_iph.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_ipvar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_sechash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_textlog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_vartable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfActionQueue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfeventq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfghash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfhashfcn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfksearch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sflsq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfmemcap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfPolicy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfPolicyUserData.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfportobject.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfprimetable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfrf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfrim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfrt_dir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfrt_flat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfrt_flat_dir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfsnprintfappend.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfthd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sfxhash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sha2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strvec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util_jsnorm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util_math.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util_net.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util_unfold.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util_utf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="acsmx.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="acsmx2.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="asn1.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitop.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitop_funcs.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bnfa_search.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt1.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intel-soft-cpm.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ipobj.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpse.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mpse_methods.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="segment_mem.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_base64decode.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_email_attach_decode.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_ip.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_iph.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_ipvar.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_sechash.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_seqnums.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_textlog.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_vartable.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfActionQueue.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfdebug.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfeventq.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfghash.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfhashfcn.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfksearch.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sflsq.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfmemcap.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfPolicy.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfPolicyData.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfPolicyUserData.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfportobject.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfprimetable.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfrf.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfrim.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfrt.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfrt_dir.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfrt_flat.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfrt_flat_dir.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfrt_trie.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfsnprintfappend.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfthd.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sfxhash.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sha2.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="strvec.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Unified2_common.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util_jsnorm.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util_math.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util_net.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util_str.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util_unfold.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util_utf.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

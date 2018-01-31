@@ -1,0 +1,1630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{50ee6c07-8218-4ac7-9ef5-b5cb5399c514}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source\Detection Plugins">
+      <UniqueIdentifier>{6bc7d77a-c079-441c-b562-ecfe8540b595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Output Plugins">
+      <UniqueIdentifier>{438a8b1d-9d79-4ceb-ab0b-4279980a6065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Parser">
+      <UniqueIdentifier>{233a0c8f-3d57-4369-8540-cd3a26663297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors">
+      <UniqueIdentifier>{786d8d67-8ff9-4141-bb48-adccab940cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect">
+      <UniqueIdentifier>{593fd278-f3a7-48d6-a0f8-f9ba9a149f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Anomaly Detection">
+      <UniqueIdentifier>{e196bbd5-7c12-4060-8665-53203081a529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Client">
+      <UniqueIdentifier>{8006956a-a5fc-4cdc-bc25-e3d483932882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Event Output">
+      <UniqueIdentifier>{b65dff73-dd6d-47ef-9f47-3d921529fc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Include">
+      <UniqueIdentifier>{244b6c98-efd7-464b-8120-a687c365d451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Mode Inspection">
+      <UniqueIdentifier>{8666892c-8f9c-4db5-b480-159ca8f9d0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Normalization">
+      <UniqueIdentifier>{f0c3138c-c6e7-4d1f-a779-2b7713b435bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Server">
+      <UniqueIdentifier>{e1191305-ec34-432c-beae-5a996719eae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Session Inspection">
+      <UniqueIdentifier>{e7eb0213-c184-4a4e-b600-124c2ab8f435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\User Interface">
+      <UniqueIdentifier>{d5a848a5-8a61-44b5-8a2e-0355033a095f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\Utils">
+      <UniqueIdentifier>{fb21bcf4-d349-4bdb-9f2b-bdeb51033563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\HttpInspect\files">
+      <UniqueIdentifier>{c6e8046a-c32f-48bd-bb19-5364e52d6d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\Stream6">
+      <UniqueIdentifier>{cc119c55-3d93-4e2b-964f-1567e36e4fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Preprocessors\Session">
+      <UniqueIdentifier>{eb4442d3-f57f-4747-9095-e9c66c3bccc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SFUtil">
+      <UniqueIdentifier>{d71409ee-72d5-4d04-9823-3d570e90f20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dynamic Plugins">
+      <UniqueIdentifier>{49956d19-54ab-4101-aaf2-90fe297ed430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Target-Based">
+      <UniqueIdentifier>{f31d3283-f95e-4928-8169-27369171514b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Control">
+      <UniqueIdentifier>{a87eb553-fd15-4518-836d-1a9e2cccd74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Dynamic Output">
+      <UniqueIdentifier>{7e6d3bb3-2244-4597-b9b2-d657fdf01bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\File">
+      <UniqueIdentifier>{c013da3a-2d31-47ea-89c0-6b29f5311e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\File\Lib">
+      <UniqueIdentifier>{fe4767e5-9793-480a-ac13-5f89e8368c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2d3bd495-394e-4540-8992-3b78f92a4530}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{d96a033b-cfd7-471f-9fb7-4f0b5ad5e9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32\WinPCAP">
+      <UniqueIdentifier>{e067f5dc-9ecd-4386-ab38-4346a730b1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32\ZLib">
+      <UniqueIdentifier>{c99a54a4-05fc-4d61-8a4f-a6fdca209562}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\detection-plugins\detection_options.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sf_snort_plugin_hdropts.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_asn1.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_asn1_detect.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_base64_data.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_base64_decode.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_byte_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_byte_math.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_byte_extract.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_byte_jump.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_clientserver.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_cvs.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_dsize_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_file_data.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_file_type.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_flowbits.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ftpbounce.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_hdr_opt_wrap.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_icmp_code_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_icmp_id_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_icmp_seq_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_icmp_type_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ip_fragbits.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ip_id_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ip_proto.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ip_same_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ip_tos_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ipoption_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_isdataat.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_pattern_match.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_pcre.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_pkt_data.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_react.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_replace.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_respond3.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_rpc_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_session.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_tcp_ack_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_tcp_flag_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_tcp_seq_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_tcp_win_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_ttl_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection-plugins\sp_urilen_check.c">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_alert_fast.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_alert_full.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_alert_sf_socket.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_alert_syslog.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_alert_test.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_alert_unixsock.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_csv.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_log_ascii.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_log_null.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_log_tcpdump.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\output-plugins\spo_unified2.c">
+      <Filter>Source\Output Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\parser\IpAddrSet.c">
+      <Filter>Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\anomaly_detection\hi_ad.c">
+      <Filter>Source\Preprocessors\HttpInspect\Anomaly Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\client\hi_client.c">
+      <Filter>Source\Preprocessors\HttpInspect\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\client\hi_client_norm.c">
+      <Filter>Source\Preprocessors\HttpInspect\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\event_output\hi_eo_log.c">
+      <Filter>Source\Preprocessors\HttpInspect\Event Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\mode_inspection\hi_mi.c">
+      <Filter>Source\Preprocessors\HttpInspect\Mode Inspection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\normalization\hi_norm.c">
+      <Filter>Source\Preprocessors\HttpInspect\Normalization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\server\hi_server.c">
+      <Filter>Source\Preprocessors\HttpInspect\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\server\hi_server_norm.c">
+      <Filter>Source\Preprocessors\HttpInspect\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\session_inspection\hi_si.c">
+      <Filter>Source\Preprocessors\HttpInspect\Session Inspection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\user_interface\hi_ui_config.c">
+      <Filter>Source\Preprocessors\HttpInspect\User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\user_interface\hi_ui_iis_unicode_map.c">
+      <Filter>Source\Preprocessors\HttpInspect\User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\user_interface\hi_ui_server_lookup.c">
+      <Filter>Source\Preprocessors\HttpInspect\User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\utils\hi_cmd_lookup.c">
+      <Filter>Source\Preprocessors\HttpInspect\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\utils\hi_paf.c">
+      <Filter>Source\Preprocessors\HttpInspect\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\utils\hi_util_hbm.c">
+      <Filter>Source\Preprocessors\HttpInspect\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\utils\hi_util_kmap.c">
+      <Filter>Source\Preprocessors\HttpInspect\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\utils\hi_util_xmalloc.c">
+      <Filter>Source\Preprocessors\HttpInspect\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\files\file_decomp.c">
+      <Filter>Source\Preprocessors\HttpInspect\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\files\file_decomp_PDF.c">
+      <Filter>Source\Preprocessors\HttpInspect\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\HttpInspect\files\file_decomp_SWF.c">
+      <Filter>Source\Preprocessors\HttpInspect\files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Stream6\snort_stream_icmp.c">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Stream6\snort_stream_ip.c">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Stream6\snort_stream_tcp.c">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Stream6\snort_stream_udp.c">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Stream6\stream_common.c">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Stream6\stream_paf.c">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Session\session_common.c">
+      <Filter>Source\Preprocessors\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Session\session_expect.c">
+      <Filter>Source\Preprocessors\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\Session\snort_session.c">
+      <Filter>Source\Preprocessors\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\normalize.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\perf-base.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\perf-event.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\perf-flow.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\perf.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\perf_indicators.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\portscan.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\session_api.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\sfprocpidstats.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\snort_httpinspect.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_arpspoof.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_bo.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_frag3.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_httpinspect.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_normalize.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_perfmonitor.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_rpc_decode.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_session.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_sfportscan.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\spp_stream6.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\str_search.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\preprocessors\stream_api.c">
+      <Filter>Source\Preprocessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\acsmx.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\acsmx2.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\asn1.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\bnfa_search.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\event_queue.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\getopt_long.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\ipobj.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\md5.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\mpse.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_base64decode.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_email_attach_decode.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_ip.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_iph.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_ipvar.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_sechash.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_textlog.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sf_vartable.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfActionQueue.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfeventq.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfghash.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfhashfcn.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfksearch.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sflsq.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfmemcap.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfPolicy.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfPolicyUserData.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfportobject.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfprimetable.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfrf.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfrim.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfrt.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfrt_dir.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfsnprintfappend.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfthd.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sfxhash.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\sha2.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\strvec.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\util_jsnorm.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\util_math.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\util_net.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\util_str.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\util_unfold.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfutil\util_utf.c">
+      <Filter>Source\SFUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dynamic-plugins\sf_convert_dynamic.c">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dynamic-plugins\sp_dynamic.c">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dynamic-plugins\sp_preprocopt.c">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\target-based\sf_attribute_table.c">
+      <Filter>Source\Target-Based</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\target-based\sf_attribute_table_parser.c">
+      <Filter>Source\Target-Based</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\target-based\sftarget_hostentry.c">
+      <Filter>Source\Target-Based</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\target-based\sftarget_protocol_reference.c">
+      <Filter>Source\Target-Based</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\target-based\sftarget_reader.c">
+      <Filter>Source\Target-Based</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\control\sfcontrol.c">
+      <Filter>Source\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dynamic-output\plugins\output_base.c">
+      <Filter>Source\Dynamic Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dynamic-output\libs\output_lib.c">
+      <Filter>Source\Dynamic Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dynamic-output\plugins\output_plugin.c">
+      <Filter>Source\Dynamic Output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\libs\file_config.c">
+      <Filter>Source\File\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\libs\file_identifier.c">
+      <Filter>Source\File\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\libs\file_lib.c">
+      <Filter>Source\File\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\circular_buffer.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_capture.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_mempool.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_segment_process.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_mime_config.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_mime_process.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_resume_block.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_service.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_service_config.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\file-process\file_stats.c">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\active.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\byte_extract.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\debug.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\decode.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detect.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection_filter.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\detection_util.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\encode.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\event_wrapper.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fpcreate.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fpdetect.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hashstring.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\idle_processing.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\log.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\log_text.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mempool.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mstring.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\obfuscation.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\packet_time.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\parser.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pcrm.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugbase.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\profiler.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rate_filter.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sf_sdlist.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfdaq.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sfthreshold.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\signature.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\snort.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\snprintf.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\strlcatu.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\strlcpyu.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tag.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\util.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WIN32-Code\getopt.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WIN32-Code\inet_aton.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WIN32-Code\inet_pton.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WIN32-Code\misc.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WIN32-Code\strtok_r.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WIN32-Code\syslog.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WIN32-Code\win32_service.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pkt_tracer.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\reload.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dynamic-plugins\sf_dynamic_plugins.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\detection-plugins\detection_options.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_asn1.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_asn1_detect.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_base64_data.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_base64_decode.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_byte_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_byte_math.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_byte_extract.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_byte_jump.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_clientserver.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_cvs.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_dsize_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_file_data.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_file_type.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_flowbits.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ftpbounce.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_hdr_opt_wrap.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_icmp_code_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_icmp_id_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_icmp_seq_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_icmp_type_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ip_fragbits.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ip_id_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ip_proto.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ip_same_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ip_tos_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ipoption_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_isdataat.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_pattern_match.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_pcre.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_pkt_data.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_react.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_replace.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_respond.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_rpc_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_session.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_tcp_ack_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_tcp_flag_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_tcp_seq_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_tcp_win_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_ttl_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection-plugins\sp_urilen_check.h">
+      <Filter>Source\Detection Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_alert_fast.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_alert_full.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_alert_sf_socket.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_alert_syslog.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_alert_test.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_alert_unixsock.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_csv.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_log_ascii.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_log_null.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_log_tcpdump.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\output-plugins\spo_unified2.h">
+      <Filter>Source\Output Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\parser\IpAddrSet.h">
+      <Filter>Source\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\file_decomp.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\file_decomp_PDF.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\file_decomp_SWF.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_ad.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_client.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_client_norm.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_cmd_lookup.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_eo.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_eo_events.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_eo_log.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_include.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_mi.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_norm.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_paf.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_return_codes.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_server.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_server_norm.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_si.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_ui_config.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_ui_iis_unicode_map.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_ui_server_lookup.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_util.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_util_hbm.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_util_kmap.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\HttpInspect\include\hi_util_xmalloc.h">
+      <Filter>Source\Preprocessors\HttpInspect\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Stream6\snort_stream_icmp.h">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Stream6\snort_stream_ip.h">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Stream6\snort_stream_tcp.h">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Stream6\snort_stream_udp.h">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Stream6\stream_common.h">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Stream6\stream_paf.h">
+      <Filter>Source\Preprocessors\Stream6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Session\session_common.h">
+      <Filter>Source\Preprocessors\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Session\session_expect.h">
+      <Filter>Source\Preprocessors\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\Session\snort_session.h">
+      <Filter>Source\Preprocessors\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\normalize.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\perf-base.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\perf-event.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\perf-flow.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\perf.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\perf_indicators.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\portscan.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\session_api.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\sfprocpidstats.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\snort_httpinspect.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_arpspoof.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_bo.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_frag3.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_httpinspect.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_normalize.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_perfmonitor.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_rpc_decode.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_session.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_sfportscan.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\spp_stream6.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\str_search.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocessors\stream_api.h">
+      <Filter>Source\Preprocessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\acsmx.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\acsmx2.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\asn1.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\bitop.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\bitop_funcs.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\bnfa_search.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\event_queue.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\getopt.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\getopt1.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\ipobj.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\md5.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\mpse.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_base64decode.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_email_attach_decode.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_ip.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_ipvar.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_sechash.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_seqnums.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_textlog.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sf_vartable.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfActionQueue.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfeventq.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfghash.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfhashfcn.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfksearch.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sflsq.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfmemcap.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfPolicy.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfPolicyData.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfPolicyUserData.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfportobject.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfprimetable.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfrf.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfrim.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfrt.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfrt_dir.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfrt_trie.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfsnprintfappend.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfthd.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sfxhash.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\sha2.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\strvec.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\Unified2_common.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\util_jsnorm.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\util_math.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\util_net.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\util_str.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\util_unfold.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfutil\util_utf.h">
+      <Filter>Source\SFUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sf_convert_dynamic.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sf_dynamic_common.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sf_dynamic_detection.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sf_dynamic_engine.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sf_dynamic_meta.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sf_dynamic_preprocessor.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sp_dynamic.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-plugins\sp_preprocopt.h">
+      <Filter>Source\Dynamic Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\target-based\sf_attribute_table.h">
+      <Filter>Source\Target-Based</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\target-based\sftarget_hostentry.h">
+      <Filter>Source\Target-Based</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\target-based\sftarget_protocol_reference.h">
+      <Filter>Source\Target-Based</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\target-based\sftarget_reader.h">
+      <Filter>Source\Target-Based</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\control\sfcontrol.h">
+      <Filter>Source\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\control\sfcontrol_funcs.h">
+      <Filter>Source\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-output\plugins\output.h">
+      <Filter>Source\Dynamic Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-output\plugins\output_api.h">
+      <Filter>Source\Dynamic Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-output\plugins\output_common.h">
+      <Filter>Source\Dynamic Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dynamic-output\plugins\output_lib.h">
+      <Filter>Source\Dynamic Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\libs\file_config.h">
+      <Filter>Source\File\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\libs\file_identifier.h">
+      <Filter>Source\File\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\libs\file_lib.h">
+      <Filter>Source\File\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\circular_buffer.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_api.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_capture.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_mempool.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_segment_process.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_mime_config.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_mime_process.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_resume_block.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_service.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_service_config.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\file-process\file_stats.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\active.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bounds.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\byte_extract.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cdefs.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\checksum.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\decode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detect.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection_filter.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\detection_util.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\encode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\event.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\event_wrapper.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fpcreate.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\fpdetect.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generators.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hashstring.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\idle_processing.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\idle_processing_funcs.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ipv6_port.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\log.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\log_text.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mempool.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mstring.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\obfuscation.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\packet_time.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\parser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pcap_pkthdr32.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pcrm.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugbase.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugin_enum.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\preprocids.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\profiler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocols.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rate_filter.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rules.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sf_sdlist.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sf_sdlist_types.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sf_types.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfdaq.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sfthreshold.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\signature.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\smalloc.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\snort.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\snprintf.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\spo_plugbase.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strlcatu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\strlcpyu.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tag.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\timersub.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\util.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\bittypes.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\bucket_lookup.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\count_packets.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\Devioctl.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\Gnuc.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\ip6_misc.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\memory_t.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\normal_lookup.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\Ntddndis.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\Ntddpack.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\Packet32.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\pcap-bpf.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\pcap-int.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\pcap-stdinc.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\pcap.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\pthread.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\remote-ext.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\sched.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\semaphore.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\tcp_session.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\time_calls.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\tme.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\WinPCAP\Win32-Extensions.h">
+      <Filter>Win32\WinPCAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\zlib\zconf.h">
+      <Filter>Win32\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\zlib\zlib.h">
+      <Filter>Win32\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\rpc\auth.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\NET\Bpf.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\rpc\clnt.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\config.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\getopt.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\getopt1.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\gnuc.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\inttypes.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Code\name.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\pcre.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\pcreposix.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\rpc\rpc_msg.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\stdint.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\syslog.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\UNISTD.H">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WIN32-Includes\rpc\xdr.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pkt_tracer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\reload.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\reload_api.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\WIN32-Code\name.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\target-based\sf_attribute_table.y">
+      <Filter>Source\Target-Based</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\target-based\sf_attribute_table_parser.l">
+      <Filter>Source\Target-Based</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\WIN32-Code\MSG00001.bin">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\WIN32-Code\name.mc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
